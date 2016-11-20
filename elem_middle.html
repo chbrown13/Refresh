@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>Middle/Elementary School Test</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<style type="text/css">
+		.content
+		{
+		
+          text-align: center;
+
+
+		}
+		#quote
+		{
+			font-family: Verdana;
+		}
+	</style>
+</head>
+<body>
+<button class="btn btn-primary" id="button" onclick="test();">Random</button>
+
+<script type="text/javascript">
+	var middle_school = {
+		"math": [ 
+			{"question": "What is the formula to calculate the slope of a line?", "answer": "y = mx + b"},
+			{"question": "The population of New York is about twice that of Paris. Write the ratio of the population of New York to the population of Paris:\n A. 1:1\n B. 1:2\n C. 2:½ \n D. 2:1\n", "answer": "D"},
+			{"question": "What is the least common multiple (LCM) of 8 and 12?", "answer": "24"},
+			{"question": "Calculate 7 * (5 + 3):", "answer": "56"},
+			{"question": "Which of the following is the definition of parallel lines?\n A. Two distinct coplanar lines that intersect at a 90°angle.\n B. Two distinct coplanar lines that do not intersect.\n C. Two rays with a common endpoint that point in opposite directions.\n D. Two rays sharing a common endpoint.", "answer": "B"},
+            {"question": "What is the square root of 81?", "answer":"9"},
+            {"question": "What is the greatest common factor of 96 and 40?", "answer": "8"},
+            {"question": "According to the commutative property, a + b = ", "answer": "b + a"},
+            {"question": "In a bag of small balls 1/4 are green, 1/8 are blue, 1/12 are yellow and the remaining 26 white. How many balls are blue?", "answer": "6"},
+            {"question": "What is the hypotenuse of a right triangle with sides of 8 and 15?", "answer": "17"}
+		],
+		"history": [
+			{"question": "True or False: During World War I the United States was a member of the Allied Powers.", "answer": "True"},
+            {"question": "The Magna Carta was published by the king of what country?", "answer": "England"},
+            {"question": "What year did the Civil War end?", "answer": "1961"},
+            {"question": "Who was the president of the Confederate states during the U.S. Civil War?", "answer": "Jefferson Davis"},
+            {"question": "True or False: The Bill of Rights consists of the first 5 amendments of the US Constitution.", "answer": "False (10)"},
+            {"question": "Where is the executive branch of the US government located?", "answer": "The White House"},
+            {"question": "How many members are there in the Senate?", "answer": "100"},
+            {"question": "What organization ofﬁcially elects the US President and Vice President?", "answer": "Electoral College"},
+            {"question": "What country was the Aztec empire located in?", "answer": "Mexico"},
+            {"question": "In what city did democracy originate?", "answer": "Athens"}
+		],
+		"english": [
+			{"question": "What is the indefinite pronoun in the following sentence: Amy is vegetarian and only eats vegetables, but Sarah will eat anything.", "answer": "anything"},
+            {"question": "Fill in the Blank: A __ is a rhyming poem with 14 lines.", "answer": "sonnet"},
+            {"question": "Which of the following means \"a feeling of annoyance\"?\n A. exasperation\n B. exuberance\n C. elation\n D. hopeful", "answer": "A"},
+            {"question": "Henry was usually <b>taciturn</b>, he never really spoke much. What does taciturn mean?\n A. loud\n B. verbose\n C. quiet\n D. funny", "answer": "C"},
+            {"question": "How many prepositions are in the following sentence: The plane flew across the country and landed in Seattle, where the group traveled around the city.", "answer": "3"},
+            {"question": "Fill in the blank: He will be attending the party and is very __ about the celebration.\n A. excited\n B. sad\n C. patient\n D. indifferent", "answer": "A"},
+            {"question": "I am normally not indolent, but it's Saturday morning and I had a busy week. What does indolent mean?\n A. hungry\n B. lazy\n C. stiff\n D. thoughtul", "answer": "B"},
+            {"question": "Fill in the Blanks: The two types of drama are __ and __.\n A. joy, pain\n B. light, dark\n C. open, closed\n D. comedy, tragedy", "answer": "D"},
+            {"question": "What type of poem does not follow any specific rules for rhyme scheme, syllable count, punctuation, etc.?", "answer": "free verse"},
+            {"question": "True or False: Non-fiction is a genre of writing composed of non-factual text.", "answer": "False"}
+		],
+		"science": [
+			{"question": "What is the name for the colored part of an eye?", "answer": "iris"},
+            {"question": "Which is not one of the three types of rock?\n A. igneous\nB. sedimentary\nC. concave\nD. metamorphic", "answer": "C"},
+            {"question": "What part of the cell is a thin layer that surrounds the cell, keeps it together, and controls the substances passing into and out of the cell?", "answer": "membrane"},
+            {"question": "Fill in the Blank: Mammals are warm-blooded vertebrates with glands that produce __.", "answer": "milk"},
+            {"question": "What pigment gives leaves their green color and absorbs light that is used in photosynthesis?", "answer": "chlorophyll"},
+            {"question": "What is is a metric unit of force?", "answer": "newton"},
+            {"question": "Fill in the Blank: An astronomical unit is equal to the distance between the __ and the __.\n A. Earth, moon\n B. moon, sun\n C. Earth core, crust\n D. sun, Earth", "answer": "D"},
+            {"question": "What is the term to describe a seed with two seed leaves?", "answer": "dicotyledon"},
+            {"question": "What biological kingdom refers to single-celled organisms with a nucleus?", "answer": "Protista"},
+            {"question": "True of False: All living things use energy.", "answer": "True"}
+		],
+	};
+
+	var elem_school = {
+		"math": [ 
+			{"question": "What is the sum of 9 and 6?", "answer": "15"},
+			{"question": "What is the difference between 10 and 3?", "answer": "7"},
+			{"question": "Six tens is the same as what number?", "answer": "60"},
+			{"question": "Subtract 19-5-8:", "answer": "6"},
+			{"question": "Add 12 and 6:", "answer": "18"},
+            {"question": "What is 7,859 rounded to the hundreds place?", "answer": "7,800"},
+            {"question": "What is the next number in the pattern: 3, 6, 9, 12, 15, __?", answer: "18"},
+            {"question": "Joe has more toys that Jane and less toys than Bill. Mark has more toys than Bill. Who has the most toys?", "answer":"Mark"},
+            {"question": "How many digits are in 1,428,893?", "answer": "7"},
+            {"question": "What is the value of the Roman Numeral L?", "answer": "50"}
+		],
+		"history": [
+			{"question": "Which war was fought between the north and the south regions of the United States?\n A. Civil War\n B. Mexican War\n C. Revolutionary War\n D. World War I", "answer": "A"},
+            {"question": "Who was the first President of the United States? (First and Last Name)", "answer": "George Washington"},
+            {"question": "In which country would you find the Eiffel Tower?", "answer": "France"},
+            {"question": "Who was the first African-American Major League baseball player? (First and Last Name)", "answer": "Jackie Robinson"},
+            {"question": "How many continents is the Earth divided into?", "answer": "7"},
+            {"question": "How many states were in the original colonies of America?", "answer": "13"},
+            {"question": "Fill in the Blank: The economic model of __ and __ describes the relationship between the cost and availability of goods.\n A. rise, fall\nB. supply, demand\nC. increase, decrease\n D. stop, go", "answer": "B"},
+            {"question": "Fill in the Blank: Suffrage refers to the right to __.", "answer": "vote"},
+            {"question": "If you flew from New York City to London, what ocean would you cross?", "answer": "Atlantic"},
+            {"question": "What type of government is ruled by a king or queen?", "answer": "monarchy"}
+		],
+		"english": [
+			{"question": "What is the contraction form of \"do\" and \"not\"?", "answer": "don't"},
+            {"question": "Which of the following is a noun?\n A. quickly\n B. jumping\n C. and\n D. ball", "answer": "ball"},
+            {"question": "What is the subject of the following sentence: My computer is really cool.", "answer": "computer"},
+            {"question": "Which of the following is a proper noun?\n A. Caroline\n B. dog\n C. car\n D. school", "answer": "D"},
+            {"question": "Laurie and her parents went out to dinner. They went to a restaurant down the street from their house. She had pizza, her dad had spaghetti, and her mom had a burrito. What did Laurie eat?", "answer": "pizza"},
+            {"question": "What is the adjective in this sentence: Michael was very tall and ran quickly.", "answer": "tall"},
+            {"question": "What is the subject in the following sentence: The students told their teacher they forgot to study for the test.", "answer": "students"},
+            {"question": "Which of the following is a synonym of \"big\"?\n A. small\nB. cold\n C. huge\n D. top", "answer": "C"},
+            {"question": "What is the adverb in the following sentence: He slept peacefully after a tiring day at work.", "answer": "peacefully"},
+            {"question": "Which of the following is not an article?\n A. a\n B. and\n C. an\n D. the", "answer": "B"}
+		],
+		"science": [
+			{"question": "What of the following is NOT a primary color?\n A. Blue\n B. Red\n C. Yellow\n D. White", "answer": "D"},
+            {"question": "How many years in a century?", "answer": "100"},
+            {"question": "Fill in the blank: The Earth has seasons because its __ is tilted as it revolves around the Sun.", "answer": "axis"},
+            {"question": "What is the hard outer layer of the Earth called?", "answer": "crust"},
+            {"question": "What is the movement of weathered materials on Earth by water, wind, or ice?", "answer": "erosion"},
+            {"question": "What is the force that pulls objects towards each other?", "answer": "gravity"},
+            {"question": "Fill in the Blank: A __ is a large body of still water.", "answer": "lake"},
+            {"question": "Which of the following is not a state of matter?\nA. solid\nB. gas\nC. metal\nD. liquid", "answer": "C"},
+            {"question": "Fill in the Blank: All living and nonliving things on the Earth make up the __.", "answer": "biosphere"},
+            {"question": "What part of the cell contains DNA?", "answer": "nucleus"}  
+		],
+	};
+    
+    function test() {
+        var t = middle_school.english;
+        var max = t.length;
+        var index = Math.floor(Math.random() * max);
+        console.log(max);
+        alert(t[index].question+" "+t[index].answer);
+   };
+
+</script>
+</body>
+</html>
