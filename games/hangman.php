@@ -15,7 +15,7 @@
 "--------\n|      0\n|     \\|/\n|      |\n|     / \\\n|\n=====",
 "--------\n|       \n|     \\|/\n|      |\n|     / \\  0\n|\n=====","")
     words = new
-    Array("computer","duke","hack","wolfpack", "sunday", "engineer", "cool", "ff", "ee", "dd","cc")
+    Array("computer","duke","hack","wolfpack", "sunday", "engineer", "cool");
     function startAgain() {
         guesses = 0
         max = hangman.length - 1

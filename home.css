@@ -9,23 +9,11 @@ a:hover
 {
 	color: #A9A9A9;
 }
-#menu
-{
-	position: fixed;
-	top: 50px;
-	right:140px;
-}
 .heading
 {
 	color:#FF8C00;
 }
 
- #options
-{
-	position: absolute;
-	top: 35%;
-	right: 45%;
-}
 #options p
 {
 	font-family: Century Gothic;
@@ -54,5 +42,9 @@ margin: 5px;
 
 text-align: center;
 }
-
+#options 
+{
+	position: absolute;
+	top: 200px;
+}
 

@@ -3,18 +3,27 @@
 <html>
 <head>
 	<title>GameDev</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 	<style type="text/css">
 		
 		canvas
 		{
 			background: #eee; display: block; 
 			position: absolute;
-			top: 38%;
+			top: 30%;
 			right: 30%;
+		}
+		#time
+		{
+			position: absolute;
+			top: 20%;
 		}
 	</style>
 </head>
 <body> 
+
+	
 	<canvas id="myCanvas" width="480" height="320"></canvas>
 	<script type="text/javascript">
 		var canvas = document.getElementById("myCanvas");
@@ -41,6 +50,7 @@
 		
 		var rightPressed = false;
 		var leftPressed = false;
+	
 
 		var bricks = [];
 		for(c = 0; c < brickColumnCount; c++)
@@ -55,6 +65,11 @@
 		document.addEventListener("keydown", keyDownHandler, false);
 		document.addEventListener("keyup", keyUpHandler, false);
 		document.addEventListener("mousemove", mouseMoveHandler, false);
+		
+		
+	
+		
+
 
 		//left key: 37 right key : 39
 		function keyDownHandler(e)
@@ -103,7 +118,7 @@
 							score++;
 							if(score == brickRowCount * brickColumnCount)
 							{
-							
+
 								swal("You Win", "CONGRATULATIONS", "success");
 								document.window.reload();
 							}
@@ -219,10 +234,15 @@
 
 			x+= dx;
 			y += dy;
+
 			requestAnimationFrame(draw);
+			
+
 
 		}
 		draw();
+		
+
 	</script>
 </body>
 </html>
