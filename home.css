@@ -1,0 +1,58 @@
+a
+{
+	margin-bottom: 10px;
+	text-decoration: none;
+	font-family: Century Gothic; 
+	font-size: 15px;
+}
+a:hover
+{
+	color: #A9A9A9;
+}
+#menu
+{
+	position: fixed;
+	top: 50px;
+	right:140px;
+}
+.heading
+{
+	color:#FF8C00;
+}
+
+ #options
+{
+	position: absolute;
+	top: 35%;
+	right: 45%;
+}
+#options p
+{
+	font-family: Century Gothic;
+	text-align:center;
+}
+#logo
+{
+	font-family: Century Gothic;
+	font-size: 35px;
+	color: #6495ED;
+	position: absolute;
+	top: -25px;
+	right:50%;
+}
+ #options div{
+ display: inline-block;
+width:120px;
+height: 120px;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+margin: 5px;
+
+}
+ #options div p{
+
+text-align: center;
+}
+
+

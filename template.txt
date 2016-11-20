@@ -1,0 +1,172 @@
+	var hsMath = {
+			"math": [ { "question": "The x coordinate on the unit circle refers to  what trigonometry value", "answer": "cosine"},
+			{"question" : "The y coordinate on the unit circle refers to  what trigonometry value", "answer": "sin"},
+			{"question" : "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question":"", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""}, 
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": " ", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""}, 
+			{"question": "", "answer": ""}, 
+			{"question": "", "answer": ""},
+			{"question" : "", "answer": ""},
+			{"question": "", "answer": "" },
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question" : "" , "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer" : ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""},
+			{"question": "", "answer": ""}]
+
+		};
+
+
+/*
+		function hsScienceQuiz()
+		{
+           for(var i = 0; i < hsScience.science.length;i++)
+           {
+           	 var input = prompt(hsScience.science[i].question);
+           	 if(input === hsScience.science[i].answer)
+           	 {
+           	 	alert("CORRECT");
+           	 }
+           	 else
+           	 {
+           	 	alert("INCORRECT the correct answer was " + hsScience.science[i].answer);
+           	 }
+           }
+		}*/
+/*
+		function hsEnglishQuiz()
+		{
+			for(var i = 0; i < hsEnglish.english.length; i++)
+			{
+				var input = prompt(hsEnglish.english[i].question);
+				if(input === hsEnglish.english[i].answer)
+				{
+					alert("Correct");
+				}
+				else
+				{
+					alert("INCORRECT the correct answer was " + hsEnglish.english[i].answer);
+				}
+			}
+		}
+		*/
+
+
+
+var hsScience = {
+			"science": [ { "question": "What is an educated guess for an experiment? ", "answer": "Hypothesis"},
+			{"question" : "The ________ is the variable that is changed or controlled in a scientific experiment", "answer": "independent"},
+			{"question" : "The ________ variable is the variable being tested in a scientific experiment", "answer": "dependent"},
+			{"question": "What is the term that describes a steady state, maintain, internal condition", "answer": "homeostasis"},
+			{"question": "Photosynthesis is the process that describes how _____ use the sun to make food", "answer": "plants"},
+			{"question": "What is life's basic unit of structure and function that is made of organelles?", "answer": "cell"},
+			{"question": "True or False, Protons have a positive charge", "answer": "True"},
+			{"question" : "True or False, Neutrons have a negative charge" , "answer": ""},
+			{"question": "What is the type of bond in which atoms share electrons between them? ", "answer": "Covalent"},
+			{"question": "Proteins that increase the rate of a chemical reaction?", "answer" : "Enzymes"},
+			{"question": "Carbohydrates,  lipids, proteins, and nucleic acids make up what compound?", "answer": "organic"},
+			{"question": "Livings things that eat meat are called", "answer": "Carnivores"},
+			{"question": "True or False, a decrease in food supply is a limiting factor", "answer": "True"},
+			{"question": "The portion of earth that describes where living things are found is called the", "answer": "Biosphere"},
+			{"question": "What number chromosome determines a humans sex?", "answer": "23"},
+			{"question": "The physical characteristic of an organism is called the", "answer": "phenotype"}]
+
+		};
+
+		var hsEnglish = {
+			"english": [ { "question": "A comparison of two  things that are similar", "answer": "analogy"},
+			{"question" : "The leading character in a drama, movie or performance.", "answer": "protagonist"},
+			{"question" : "A mistaken belief, especially one based on unsound judgement", "answer": "fallacy"},
+			{"question": "Before or existing before a war", "answer": "antebellum"},
+			{"question": "To travel the world, either by plane or ship is to", "answer": "circumnavigate"},
+			{"question": "To grant freedom to, as from slavery or servitude", "answer": "enfranchise"},
+			{"question":"When the sun crosses the plane of the earth's equator", "answer": ""},
+			{"question": "Cleverly amusing in tone", "answer": "facetious"},
+			{"question": "All of the same or similar kind or nature", "answer": "homogeneous"},
+			{"question": "Incongruity between what might be expected and what occurs", "answer": "irony"},
+			{"question": "Full of trivial conversation, talkative ", "answer": "loquacious"}, 
+			{"question": "Enter into a combination with oxygen", "answer": "oxidize"},
+			{"question": "To summarize breifly", "answer": "recapitulate"},
+			{"question": "Something done or paid in expiation of a wrong doing", "answer": "reparation"},
+			{"question": "An advocate of the extension of voting rights", "answer": "suffragist"},
+			{"question": "Marked by extreme intensity of emotions or convictions", "answer": "vehement"},
+			{"question": "To desist, go without, withdraw is to", "answer": "Abstain"},
+			{"question": "Stubborn, willful", "answer": "headstrung"}]
+
+		};
+/*
+	var hsBiology = {
+			"bio": [ { "question": "What is an educated guess for an experiment? ", "answer": "Hypothesis"},
+			{"question" : "The ________ is the variable that is changed or controlled in a scientific experiment", "answer": "independent"},
+			{"question" : "The ________ variable is the variable being tested in a scientific experiment", "answer": "dependent"},
+			{"question": "What is the term that describes a steady state, maintain, internal condition", "answer": "homeostasis"},
+			{"question": "Photosynthesis is the process that describes how _____ use the sun to make food", "answer": "plants"},
+			{"question": "What is life's basic unit of structure and function that is made of organelles?", "answer": "cell"},
+			{"question": "True or False, Protons have a positive charge", "answer": "True"},
+			{"question" : "True or False, Neutrons have a negative charge" , "answer": ""},
+			{"question": "What is the type of bond in which atoms share electrons between them? ", "answer": "Covalent"},
+			{"question": "Proteins that increase the rate of a chemical reaction?", "answer" : "Enzymes"},
+			{"question": "Carbohydrates,  lipids, proteins, and nucleic acids make up what compound?", "answer": "organic"},
+			{"question": "Livings things that eat meat are called", "answer": "Carnivores"},
+			{"question": "True or False, a decrease in food supply is a limiting factor", "answer": "True"},
+			{"question": "The portion of earth that describes where living things are found is called the", "answer": "Biosphere"},
+			{"question": "What number chromosome determines a humans sex?", "answer": "23"},
+			{"question": "The physical characteristic of an organism is called the", "answer": "phenotype"}]
+
+		};*/
+
+
+*
+	var bioMax = hsBiology.bio.length;
+	function bioQuiz()
+	{
+      for(var i = 0; i < bioMax; i++)
+      {
+      	var input = prompt(hsBiology.bio[i].question);
+      	if(input === hsBiology.bio[i].answer)
+      	{
+      		alert("CORRECT");
+      	}
+      	else
+      	{
+      		aler("INCORRECT the answer was " + hsBiology.bio[i].answer)
+      	}
+      }
+	}
+	biology.addEventListener("click", bioQuiz, false);*/
