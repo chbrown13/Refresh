@@ -234,7 +234,7 @@ a
 			{"question": "What is the indefinite pronoun in the following sentence: Amy is vegetarian and only eats vegetables, but Sarah will eat anything.", "answer": "anything"},
             {"question": "Fill in the Blank: A __ is a rhyming poem with 14 lines.", "answer": "sonnet"},
             {"question": "Which of the following means \"a feeling of annoyance\"?\n A. exasperation\n B. exuberance\n C. elation\n D. hopeful", "answer": "A"},
-            {"question": "Henry was usually <b>taciturn</b>, he never really spoke much. What does taciturn mean?\n A. loud\n B. verbose\n C. quiet\n D. funny", "answer": "C"},
+            {"question": "Henry was usually taciturn, he never really spoke much. What does taciturn mean?\n A. loud\n B. verbose\n C. quiet\n D. funny", "answer": "C"},
             {"question": "How many prepositions are in the following sentence: The plane flew across the country and landed in Seattle, where the group traveled around the city.", "answer": "3"},
             {"question": "Fill in the blank: He will be attending the party and is very __ about the celebration.\n A. excited\n B. sad\n C. patient\n D. indifferent", "answer": "A"},
             {"question": "I am normally not indolent, but it's Saturday morning and I had a busy week. What does indolent mean?\n A. hungry\n B. lazy\n C. stiff\n D. thoughtul", "answer": "B"},
