@@ -99,7 +99,7 @@ a
   </li>
 
   <li class="dropdown">
-    <a href="#" class="dropbtn">HighSchool</a>
+    <a href="#" class="dropbtn">High School</a>
   <div class="dropdown-content">
       <a href="#" id="hsMath">Math </a>
       <a href="#" id="hsScience">Science</a>
