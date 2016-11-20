@@ -11,6 +11,7 @@
 		<p class="heading"> Games </p> 
 		<div id="breakout"> <p><a href="../refresh/games/breakout.php">	Breakout </a> </p>  </div>
 		<div id="galaxian" > <p> Galaxian </p> </div>
+        <div id="hangman" > <p><a href="../refresh/games/hangman.php"> Hangman </a></p></div>
 	
 	</div>
 
